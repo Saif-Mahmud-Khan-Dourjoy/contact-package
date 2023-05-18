@@ -15,6 +15,13 @@
         "psr-4":{
             "Dourjoy\\Contact\\" : "src/"
            }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dourjoy\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
     
 }
