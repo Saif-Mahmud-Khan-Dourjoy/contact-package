@@ -1,0 +1,20 @@
+{
+    "name": "dourjoy/contact",
+    "description": "It will give you a contact page and email service",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saif Mahmud Khan Dourjoy",
+            "email": "dourjoykhan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Dourjoy\\Contact\\" : "src/"
+           }
+    }
+    
+}
